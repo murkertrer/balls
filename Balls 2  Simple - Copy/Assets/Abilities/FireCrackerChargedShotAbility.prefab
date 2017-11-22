@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012859998810}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012859998810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013833895694}
+  - 114: {fileID: 114000013439766254}
+  - 114: {fileID: 114000013353374960}
+  m_Layer: 0
+  m_Name: FireCrackerChargedShotAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013833895694
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012859998810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.81, y: 2, z: -10.152439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013353374960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012859998810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a25b789f206dbe49aa4c2733c2cd260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  automaticArm: 1
+  absoluteVelocity: 0
+  relativeVelocity: 3000
+  fixedShotSUltra: 8
+  fixedShotStrenght: 15
+  maxFixedShot: 60
+  minFixedShot: 10
+  chargedShotSpeed: 20
+  initialFixedShotStrenght: 0
+  shotForce: 0
+  strenghtMultiplier: 10
+  genericCurrentAmmo: 0
+  genericMaxAmmo: 0
+  genericNextFire: 0
+  genericCurrentShotType: 0
+  genericExpel: 0
+  genericFireRate: 0
+  maxChargedShot: 50
+  genericNextFireLeft: 0
+  genericNextFireRight: 0
+  attri: {fileID: 0}
+  currentShot: {fileID: 0}
+  typeOfCS: 0
+  proyectile: {fileID: 5411052, guid: e86a1188207f6c043a6d93ace6ea4117, type: 2}
+  thisAbilityName: Charged Firecracker
+  currentAmmo2: 0
+  maxAmmo2: 1000
+  nextFire2: 0
+  abName2: 
+  fRate2: 0.5
+  totalShot2: 0
+  nextFireLeft2: 0
+  nextFireRight2: 0
+  gravityAmmo: 0
+--- !u!114 &114000013439766254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012859998810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2c96a9b2bce6140859d63d3be71859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfAbility: 
